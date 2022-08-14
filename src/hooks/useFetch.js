@@ -6,6 +6,7 @@ export const useFetch = (url) => {
     isLoading: true,
     hasError: null,
   });
+
   const getFetch = async () => {
     setState({
       ...state,
